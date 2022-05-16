@@ -56,8 +56,6 @@ namespace ConceptosPOO
             {
                 return month;
             }                                           // mi clase date no debe intervenir con el usuario x eso no se coloca el console.write
-
-
             throw new MonthException("MES INVALIDO");      //SIGUE CON ERROR GENERAMOS LA CLASE           //creamos nuestra propia ecepcion
                                                            // AL ejecutar se genera error y x eso es mejor capturar el errror
         }
