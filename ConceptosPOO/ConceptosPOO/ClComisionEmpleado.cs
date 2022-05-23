@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConceptosPOO
 {
-    internal class ClComisionEmpleado : clEmpleado
+    internal class clComisionEmpleado : clEmpleado
     {
         public float porcentajeComision { get; set; }
         public decimal ventas { get; set; }
